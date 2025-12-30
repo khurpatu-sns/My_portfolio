@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -110,3 +111,25 @@ footer {
     background: #020617;
     color: #cbd5e1;
 }
+=======
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    text-align:center;
+}
+.myphoto{
+    margin:10px auto;
+   height: 500px;
+   width:500px;
+   background-image:url("my_photo.jpg");
+   background-size:cover;
+}
+.bio{
+    font-style:italic;
+    color :blueviolet;
+    text-decoration: underline;
+   font-weight: bolder;
+}
+>>>>>>> origin/master
