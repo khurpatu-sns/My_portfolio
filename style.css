@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #333;
+}
+
+header {
+    background: #0f172a;
+    padding: 20px 60px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    padding: 80px 60px;
+    background: #020617;
+    color: #fff;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.section {
+    padding: 70px 60px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+.skills-container {
+    max-width: 600px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill span {
+    font-weight: 600;
+}
+
+.bar {
+    background: #e5e7eb;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.fill {
+    height: 8px;
+    border-radius: 5px;
+}
+
+.html { width: 90%; background: #38bdf8; }
+.css { width: 45%; background: #38bdf8; }
+.js { width: 20%; background: #38bdf8; }
+.bootstrap { width: 40%; background: #38bdf8; }
+.python { width: 80%; background: #22c55e; }
+.django { width: 70%; background: #22c55e; }
+
+.edu {
+    margin-bottom: 15px;
+}
+
+.coming-soon {
+    color: #64748b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #cbd5e1;
+}
